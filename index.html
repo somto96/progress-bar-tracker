@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Progress Bar Task Tracker</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,600&display=swap" rel="stylesheet">
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.6/js/uikit-icons.min.js"></script>
+
+    <!-- font awesome kit -->
+    <script src="https://kit.fontawesome.com/5709c233d4.js"></script>
+
+
+</head>
+
+<body>
+    <div class="uk-container">
+        <div class="header">
+            <h1 class="header-title">My Tasks</h1>
+        </div>
+
+        <div id="progress-bar-row">
+            <!-- <div id="progressbar" class="uk-progress uk-progress-success">
+                <div class="uk-progress-bar" style="width: 50%;">0%</div>
+            </div> -->
+            <progress id="progressbar" class="uk-progress" value="0" max=""></progress>
+        </div>
+        <div class="form-card ">
+            <form class="uk-form-horizontal" id="form">
+                <div class="form-row">
+                    <div class="uk-form-controls">
+                        <input style="margin: 10px 5px;" class="uk-input uk-form-width-medium" id="form-horizontal-text"
+                            type="text" name="task" placeholder="Task...">
+                        <input class="uk-button uk-button-default uk-width-small uk-margin" name="skip_Submit"
+                            type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+        <form action="get" id="check">
+            <div id="task-list">
+            </div>
+        </form>
+
+    </div>
+
+
+    <script src="src/index.js"></script>
+    <!-- <script src="src/progressbar.js"></script> -->
+</body>
+
+</html>

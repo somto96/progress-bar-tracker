@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+body {
+    background-color: #002239;
+    min-height: 100vh;
+    text-align: center;
+}
+
+/* CONTAINERS */
+.uk-container {
+    align-items: center;
+}
+
+/* HEADER */
+.header {
+    margin-top: 50px;
+}
+
+.header .header-title {
+    font-family: "Satisfy", cursive;
+    color: cyan;
+    font-size: 30px;
+    /* text-shadow: 5px 5px 10px cyan; */
+}
+
+/* FORM */
+.form-card {
+    background-color: #002239;
+    max-width: 500px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: -4px -4px 10px #669BBC,
+        4px 4px 10px rgba(0, 0, 0, 1);
+}
+
+.uk-form-controls {
+    margin-left: 0px !important;
+    padding: 0px 20px;
+}
+
+.uk-form-controls .uk-input[type=text] {
+    border-color: cyan;
+    color: cyan;
+    background-color: transparent;
+}
+
+.uk-form-controls .uk-input[type=text]::placeholder {
+    color: cyan;
+}
+
+.uk-form-controls .uk-button,
+.uk-form-controls .uk-button:hover {
+    color: cyan;
+    border-color: cyan;
+}
+
+/* TASK-LIST */
+#task-list {
+    background-color: #002239;
+    padding: 30px 30px;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: -4px -4px 10px #669BBC,
+        4px 4px 10px rgba(0, 0, 0, 1);
+}
+
+.uk-checkbox {
+    border-color: cyan !important;
+}
+
+.uk-checkbox:checked {
+
+    background-color: cyan !important;
+    border-color: transparent;
+
+}
+
+#task-list div label {
+    color: cyan;
+}
+
+/* PROGRESS BAR */
+#progress-bar-row {
+    background-color: #002239;
+    padding: 30px 30px;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 30px auto;
+    box-shadow: -4px -4px 10px #669BBC,
+        4px 4px 10px rgba(0, 0, 0, 1);
+
+}
+
+#progressbar {
+    height: 24px;
+    margin-bottom: 0px;
+    background-color: #002239;
+    -webkit-background-color: #002239;
+    box-shadow: inset -5px -5px 10px #669BBC,
+        inset 5px 5px 10px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: inset -2px -2px 5px #669BBC,
+        inset 2px 2px 5px rgba(0, 0, 0, 1);
+    
+}
+
+.uk-progress::-moz-progress-bar,
+.uk-progress::-webkit-progress-bar {
+    background-color: cyan !important;
+    text-shadow: 10px 10px 10px cyan;
+}
+
+/* #progress-bar .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+    border-radius: 50%;
+    box-shadow: inset -5px -5px 10px #669BBC,
+    inset 5px 5px 10px rgba(0, 0, 0, 1);
+    background: #002239;
+
+}
+
+#progress-bar .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+   
+}
+
+#progress-bar .percent svg circle{
+    width:100%;
+    height: 100%;
+    fill: none;
+    stroke: cyan;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
+}
+
+#progress-bar .percent .number {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%
+
+
+}
+
+#progress-bar .percent .number h2{
+    color: cyan;
+    transition: 0.5s;
+}
+
+#progress-bar .percent .number h2 span{
+    font-size: 15px;
+} */
